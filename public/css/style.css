@@ -1,0 +1,243 @@
+body{
+  background-color: #2A313A;
+  color: #fff;
+  margin-top: 80px;
+}
+.stripb a {
+  color: #a5a5a5;
+}
+.stripb a:hover {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #2A313A;
+  background-image: none;
+  border: none;
+  border-radius: none;
+  filter: none;
+  box-shadow: none;
+  //padding: 20px;
+  width: none;
+}
+.nav-collapse ul.nav {
+  margin-top: 25px;
+}
+.navbar-inverse .brand {
+  padding-top:0;
+  padding-bottom: 0;
+}
+a.brand {
+  background: url(../img/web.png) no-repeat 20px;
+  width: 195px;
+  height: 82px;
+}
+.navbar-inverse .nav .active>a{
+  background-color: #13151b;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .9) inset;
+}
+.desk{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.desk h3 {
+  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+.desk h2 {
+  font-weight: normal;
+}
+.strip{
+  background-color: #fff;
+  color: #000;
+}
+.item-stream {
+  background-color: whiteSmoke;
+  border: 1px solid #D8D8D8;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.full-search-bar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.full-search-bar #biasa input[type="text"] {
+  height: 35px;
+}
+.full-search-bar #biasa input[type="text"] {
+  float: left;
+  height: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-border-radius: 6px 0 0 6px;
+  -moz-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
+  border-right: 0;
+  width: 86%;
+  margin-bottom: 0;
+}
+.full-search-bar .search-input-item {
+  padding: 10px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.search-form{
+  margin: 0;
+}
+.full-search-bar #biasa button[type="submit"] {
+  width: 46px;
+  height: 40px;
+  -webkit-border-radius: 0 6px 6px 0;
+  -moz-border-radius: 0 6px 6px 0;
+  border-radius: 0 6px 6px 0;
+}
+footer p {
+  padding:20px;
+}
+.bookrak {
+  height: 360px;
+  width: 430px;
+  border-radius: 10px;
+  padding:10px;
+}
+.bookwrap{
+  margin-top:-100px;
+  margin-bottom:-180px;
+}
+.kategori{
+  margin-top: 10px;
+}
+.kategori h4{
+  font-weight: normal;
+}
+.bwh {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.rows {
+  height: 190px;
+}
+.bookshelf {
+  padding-top: 30px;
+}
+.bookshelf .shelf .rows::after {
+  background: url(../img/wall-bookshelf.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 500px;
+  height: 70px;
+  display: block;
+  content: "";
+  margin-left: -30px;
+  padding-top: 105px;
+}
+.bookshelf .shelf .loc {
+  text-align: center;
+}
+.book img {
+}
+.book{
+  overflow: hidden;
+  width: 82px;
+  height: 105px;
+  background-color: #ddd;
+  display: inline-block;
+  margin: 0 28px;
+  padding: 0;
+  border: 1px solid #fff; 
+  float: left;
+  line-height: .6em;
+  text-align: center;
+}
+.book a{
+  font-size:.7em;
+  color: #fff;
+}
+.book .teks:hover {
+  opacity: 100;
+}
+.tabs-below > .nav-tabs
+{
+  border: none;
+}
+.login {
+  width: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.strip-page{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.page {
+  padding-top: 20px;
+}
+.loader {
+  background: url(../img/loader.gif) no-repeat;
+  width: 32px;
+  height:32px;
+}
+.box {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.box h3{
+  margin-left: 20px;
+}
+.nav-tabs.nav-stacked > li > a {
+  border-color: transparent;
+}
+.nav-tabs.nav-stacked li.active a{
+  background: #ddd;
+}
+.form-actions {
+  margin-bottom: 0;
+}
+.nav {
+  margin-bottom: 10px;
+}
+.box .side select{
+  width: 100%;
+}
+.box .side {
+  padding: 10px;
+}
+.sel select{
+  width: 100%;
+}
+.hl{
+  font-weight: bold;
+}
+.digit {
+  background: url(../img/digit.png) no-repeat;
+  width: 30px;
+  height: 35px;
+  margin: 0 2px;
+  padding-top: 0px;
+  float: left;
+  font-family: "Impact", Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #000000;
+  font-size: 20px;
+  text-align: center;
+}
+.table-view tr td:first-child{
+  text-align: right;
+}
+.loadings {
+  background : #ddd;
+}
+h3.popover-title
+{
+  margin: 0;
+}
+.sauto{
+  float: left;
+  margin-right: 10px;
+}
